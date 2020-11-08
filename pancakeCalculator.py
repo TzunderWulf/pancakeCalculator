@@ -33,7 +33,7 @@ amountEggs = int(input("How many eggs do you have?"))
 print("Calculating...")
 time.sleep(2)
 
-# checks if there is even enough to make one pancake
+# checks if there is even enough to make one batch of pancakes (4)
 if amountFlour < minAmountFlour or amountEggs < minAmountEggs or amountMilk < minAmountMilk:
     time.sleep(5)
     sys.exit("You can't have no pancakes today.. :(")
