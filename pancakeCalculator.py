@@ -39,9 +39,9 @@ if amountFlour < minAmountFlour or amountEggs < minAmountEggs or amountMilk < mi
     sys.exit("You can't have no pancakes today.. :(")
 # calculation
 else:
-    amountFlour = amountFlour / minAmountFlour 
-    amountMilk = amountMilk / minAmountMilk
-    amountEggs = amountEggs / minAmountEggs
+    amountFlour /= minAmountFlour 
+    amountMilk /= minAmountMilk
+    amountEggs /= minAmountEggs
 
 minimum = int(min(amountEggs, amountFlour, amountMilk))
 
